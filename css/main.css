@@ -1824,7 +1824,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4dc7bb;
+  background: #2fb0b5;
 }
 .feed-link,
 .chat {
@@ -2996,5 +2996,16 @@ ul.breadcrumb li+li:last-child {
   }
   .pagination {
     margin: 8px 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
   }
 }

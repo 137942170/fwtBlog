@@ -1,121 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>第3期:(3)hexo部署多设备同步管理</title>
-      <link href="/fwtBlog/2019/07/02/%E7%AC%AC3%E6%9C%9F-3-hexo%E9%83%A8%E7%BD%B2%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
-      <url>/fwtBlog/2019/07/02/%E7%AC%AC3%E6%9C%9F-3-hexo%E9%83%A8%E7%BD%B2%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/</url>
-      
-        <content type="html"><![CDATA[<h3 id="hexo部署多设备同步管理"><a href="#hexo部署多设备同步管理" class="headerlink" title="hexo部署多设备同步管理"></a>hexo部署多设备同步管理</h3><h4 id="对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑"><a href="#对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑" class="headerlink" title="对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑"></a>对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑</h4>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 7月 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第2期:(2)hexo标签插件的基础操作</title>
-      <link href="/fwtBlog/2019/07/01/%E7%AC%AC2%E6%9C%9F-2-hexo%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
-      <url>/fwtBlog/2019/07/01/%E7%AC%AC2%E6%9C%9F-2-hexo%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</url>
-      
-        <content type="html"><![CDATA[<h3 id="hexo标签插件的基础操作"><a href="#hexo标签插件的基础操作" class="headerlink" title="hexo标签插件的基础操作"></a>hexo标签插件的基础操作</h3><h3 id="一、引用块"><a href="#一、引用块" class="headerlink" title="一、引用块"></a>一、引用块</h3><h4 id="1、普通输出"><a href="#1、普通输出" class="headerlink" title="1、普通输出"></a>1、普通输出</h4><blockquote><p>小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人</p></blockquote><h4 id="2、引用书上的句子"><a href="#2、引用书上的句子" class="headerlink" title="2、引用书上的句子"></a>2、引用书上的句子</h4><blockquote><p>小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人</p><footer><strong>fwt</strong><cite>Feng Feng</cite></footer></blockquote><h4 id="3、引用-Twitter"><a href="#3、引用-Twitter" class="headerlink" title="3、引用 Twitter"></a>3、引用 Twitter</h4><blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="noopener">http://devdocs.io</a></p><footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="noopener">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote><h4 id="4、引用网络上的文章"><a href="#4、引用网络上的文章" class="headerlink" title="4、引用网络上的文章"></a>4、引用网络上的文章</h4><blockquote><p>小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人</p><footer><strong>Seth Godin</strong><cite><a href="https://137942170.github.io/fwtBlog/">Welcome to Island Marketing</a></cite></footer></blockquote><h3 id="二、代码块"><a href="#二、代码块" class="headerlink" title="二、代码块"></a>二、代码块</h3><h4 id="1、普通代码块"><a href="#1、普通代码块" class="headerlink" title="1、普通代码块"></a>1、普通代码块</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello javascript!&apos;);</span><br></pre></td></tr></table></figure><h4 id="2、指定语言"><a href="#2、指定语言" class="headerlink" title="2、指定语言"></a>2、指定语言</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure><h4 id="3、附加内容"><a href="#3、附加内容" class="headerlink" title="3、附加内容"></a>3、附加内容</h4><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure><h4 id="4、附加网址"><a href="#4、附加网址" class="headerlink" title="4、附加网址"></a>4、附加网址</h4><figure class="highlight plain"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="noopener">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure><h3 id="三、反引号代码块"><a href="#三、反引号代码块" class="headerlink" title="三、反引号代码块"></a>三、反引号代码块</h3><h5 id="由于此处加载大量网址-暂且不做示例"><a href="#由于此处加载大量网址-暂且不做示例" class="headerlink" title="由于此处加载大量网址 暂且不做示例"></a>由于此处加载大量网址 暂且不做示例</h5><h4 id="1、Pull-Quote"><a href="#1、Pull-Quote" class="headerlink" title="1、Pull Quote"></a>1、Pull Quote</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pullquote [class] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endpullquote %&#125;</span><br></pre></td></tr></table></figure><h4 id="2、jsFiddle"><a href="#2、jsFiddle" class="headerlink" title="2、jsFiddle"></a>2、jsFiddle</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br></pre></td></tr></table></figure><h4 id="3、Gist"><a href="#3、Gist" class="headerlink" title="3、Gist"></a>3、Gist</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% gist gist_id [filename] %&#125;</span><br></pre></td></tr></table></figure><h4 id="4、iframe"><a href="#4、iframe" class="headerlink" title="4、iframe"></a>4、iframe</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% iframe url [width] [height] %&#125;</span><br></pre></td></tr></table></figure><h4 id="5、Image"><a href="#5、Image" class="headerlink" title="5、Image"></a>5、Image</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% img [class names] /path/to/image [width] [height] [title text [alt text]] %&#125;</span><br></pre></td></tr></table></figure><h4 id="6、Link"><a href="#6、Link" class="headerlink" title="6、Link"></a>6、Link</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% link text url [external] [title] %&#125;</span><br></pre></td></tr></table></figure><h4 id="7、Include-Code"><a href="#7、Include-Code" class="headerlink" title="7、Include Code"></a>7、Include Code</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% include_code [title] [lang:language] path/to/file %&#125;</span><br></pre></td></tr></table></figure><h4 id="8、Youtube"><a href="#8、Youtube" class="headerlink" title="8、Youtube"></a>8、Youtube</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% youtube video_id %&#125;</span><br></pre></td></tr></table></figure><h4 id="9、Vimeo"><a href="#9、Vimeo" class="headerlink" title="9、Vimeo"></a>9、Vimeo</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% vimeo video_id %&#125;</span><br></pre></td></tr></table></figure><h3 id="四、引用文章"><a href="#四、引用文章" class="headerlink" title="四、引用文章"></a>四、引用文章</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_path slug %&#125;</span><br><span class="line">&#123;% post_link slug [title] %&#125;</span><br></pre></td></tr></table></figure><h3 id="五、引用资源"><a href="#五、引用资源" class="headerlink" title="五、引用资源"></a>五、引用资源</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure><h3 id="六、Raw"><a href="#六、Raw" class="headerlink" title="六、Raw"></a>六、Raw</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> md语法 </tag>
-            
-            <tag> 7月 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一期:(1)hexo常用命令及markdown基础语法</title>
-      <link href="/fwtBlog/2019/06/24/markdown%EF%BC%88md%EF%BC%89%E6%96%87%E4%BB%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B8%B8%E7%94%A8%E7%BC%96%E8%BE%91%E8%AF%AD%E6%B3%95/"/>
-      <url>/fwtBlog/2019/06/24/markdown%EF%BC%88md%EF%BC%89%E6%96%87%E4%BB%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B8%B8%E7%94%A8%E7%BC%96%E8%BE%91%E8%AF%AD%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<h3 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h3><h4 id="1、分段-两个回车"><a href="#1、分段-两个回车" class="headerlink" title="1、分段:两个回车:"></a>1、分段:两个回车:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">    一个人会落泪，是因为痛；一个人之所以痛，是因为在乎；一个人之所以在乎，是因为有感觉；</span><br><span class="line"> </span><br><span class="line">    一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整的一个人。</span><br><span class="line">难过的时候，原谅自己，你只不过是一个人而已，没必要把自己看的这么坚不可摧。</span><br></pre></td></tr></table></figure><h4 id="2、换行-两个空格-回车"><a href="#2、换行-两个空格-回车" class="headerlink" title="2、换行 两个空格 + 回车 :"></a>2、换行 两个空格 + 回车 :</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">    一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整的一个人。  </span><br><span class="line">难过的时候，原谅自己，你只不过是一个人而已，没必要把自己看的这么坚不可摧。</span><br></pre></td></tr></table></figure><h4 id="3、标题-井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题"><a href="#3、标题-井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题" class="headerlink" title="3、标题 # ~ ###### 井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题:"></a>3、标题 # ~ ###### 井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题:</h4><h2 id="H2-一个人之所以有感觉，仅因为你是一个人！"><a href="#H2-一个人之所以有感觉，仅因为你是一个人！" class="headerlink" title="H2: 一个人之所以有感觉，仅因为你是一个人！"></a>H2: 一个人之所以有感觉，仅因为你是一个人！</h2><h3 id="H3-一个人之所以有感觉，仅因为你是一个人！"><a href="#H3-一个人之所以有感觉，仅因为你是一个人！" class="headerlink" title="H3: 一个人之所以有感觉，仅因为你是一个人！"></a>H3: 一个人之所以有感觉，仅因为你是一个人！</h3><h4 id="H4-一个人之所以有感觉，仅因为你是一个人！"><a href="#H4-一个人之所以有感觉，仅因为你是一个人！" class="headerlink" title="H4: 一个人之所以有感觉，仅因为你是一个人！"></a>H4: 一个人之所以有感觉，仅因为你是一个人！</h4><h5 id="H5-一个人之所以有感觉，仅因为你是一个人！"><a href="#H5-一个人之所以有感觉，仅因为你是一个人！" class="headerlink" title="H5: 一个人之所以有感觉，仅因为你是一个人！"></a>H5: 一个人之所以有感觉，仅因为你是一个人！</h5><h6 id="H6-一个人之所以有感觉，仅因为你是一个人！"><a href="#H6-一个人之所以有感觉，仅因为你是一个人！" class="headerlink" title="H6: 一个人之所以有感觉，仅因为你是一个人！"></a>H6: 一个人之所以有感觉，仅因为你是一个人！</h6><h4 id="4、引用-gt"><a href="#4、引用-gt" class="headerlink" title="4、引用 &gt;:"></a>4、引用 &gt;:</h4><blockquote><p>一个人之所以有感觉，仅因为你是一个人！</p></blockquote><h4 id="5、列表-，-，-，-1-，选其中之一，注意后面有个空格"><a href="#5、列表-，-，-，-1-，选其中之一，注意后面有个空格" class="headerlink" title="5、列表 * ， + ， - ， 1. ，选其中之一，注意后面有个空格:"></a>5、列表 * ， + ， - ， 1. ，选其中之一，注意后面有个空格:</h4><ul><li>The reason why a person feels is because you are a person!</li></ul><ul><li>The reason why a person feels is because you are a person!</li></ul><ul><li>The reason why a person feels is because you are a person!</li></ul><ol><li>The reason why a person feels is because you are a person!</li><li>The reason why a person feels is because you are a person!</li><li>The reason why a person feels is because you are a person!</li></ol><h4 id="6、代码区块-四个空格-开头"><a href="#6、代码区块-四个空格-开头" class="headerlink" title="6、代码区块 四个空格 开头:"></a>6、代码区块 四个空格 开头:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The reason why a person feels is because you are a person!</span><br></pre></td></tr></table></figure><h4 id="7、链接"><a href="#7、链接" class="headerlink" title="7、链接:"></a>7、链接:</h4><p><code>[文字](链接地址)</code></p><h4 id="8、图片"><a href="#8、图片" class="headerlink" title="8、图片:"></a>8、图片:</h4><p><code>![](图片地址) //图片地址可以是本地路劲，也可以是网络地址</code></p><h4 id="9、强调"><a href="#9、强调" class="headerlink" title="9、强调:"></a>9、强调:</h4><p><strong>字体删除</strong><br><strong>字体删除</strong><br><em>字体删除</em><br><em>字体删除</em><br><del>字体删除</del></p><h4 id="10、代码"><a href="#10、代码" class="headerlink" title="10、代码:"></a>10、代码:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The reason why a person feels is because you are a person!</span><br></pre></td></tr></table></figure><h4 id="11、字体及颜色用法"><a href="#11、字体及颜色用法" class="headerlink" title="11、字体及颜色用法:"></a>11、字体及颜色用法:</h4><blockquote><p><font color="red" face="黑体">我是黑体字</font><br><font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color="black" size="4" face="黑体">黑体</font><br><font color="#00ffff" size="3">null</font><br><font color="gray" size="5">gray</font></p></blockquote><h4 id="12、代码段"><a href="#12、代码段" class="headerlink" title="12、代码段:"></a>12、代码段:</h4><p><code>The reason why a person feels is because you are a person!</code></p><h4 id="13、JavaScript-示例"><a href="#13、JavaScript-示例" class="headerlink" title="13、JavaScript 示例:"></a>13、JavaScript 示例:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line">* nth element in the fibonacci series.</span><br><span class="line">*/</span><br><span class="line"></span><br><span class="line">function fib(n) &#123;</span><br><span class="line">    var a = 1, b = 1;</span><br><span class="line">    return a;</span><br><span class="line">&#125;</span><br><span class="line">document.write(fib(10));</span><br></pre></td></tr></table></figure><h4 id="14、表格"><a href="#14、表格" class="headerlink" title="14、表格"></a>14、表格</h4><table><thead><tr><th>项目</th><th align="right">价格</th><th align="center">数量</th></tr></thead><tbody><tr><td>计算机</td><td align="right">$1600</td><td align="center">5</td></tr><tr><td>手机</td><td align="right">$12</td><td align="center">12</td></tr><tr><td>管线</td><td align="right">$1</td><td align="center">234</td></tr></tbody></table>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> md语法 </tag>
-            
-            <tag> 6月 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>first-myblog</title>
-      <link href="/fwtBlog/2019/06/24/first-myblog/"/>
-      <url>/fwtBlog/2019/06/24/first-myblog/</url>
-      
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><img src="1.jpg" alt="1"></p><p>使用github pages服务搭建博客的好处有：</p><ol><li>全是静态文件，访问速度快；</li><li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li><li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li></ol><a id="more"></a><ol start="4"><li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li><li>博客内容可以轻松打包、转移、发布到其它平台；</li><li>等等；</li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/fwtBlog/2019/06/21/test/"/>
-      <url>/fwtBlog/2019/06/21/test/</url>
-      
-        <content type="html"><![CDATA[<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><blockquote><p>content</p><footer><strong>[author[</strong><cite>source]] [link] [source_link_title]</cite></footer></blockquote><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p></blockquote><h3 id="引用书上的句子"><a href="#引用书上的句子" class="headerlink" title="引用书上的句子"></a>引用书上的句子</h3><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p><footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote><h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><h4 id="在文章中嵌入-jsFiddle"><a href="#在文章中嵌入-jsFiddle" class="headerlink" title="在文章中嵌入 jsFiddle"></a>在文章中嵌入 jsFiddle</h4><iframe scrolling="no" width="[width]" height="[height]" src="//jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" allowfullscreen></iframe><h4 id="在文章中插入指定大小的图片。"><a href="#在文章中插入指定大小的图片。" class="headerlink" title="在文章中插入指定大小的图片。"></a>在文章中插入指定大小的图片。</h4><img src="/fwtBlog/path/to/image" class="[class names]" title="[width] [height] [title text [alt text]]">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/fwtBlog/2019/06/20/hello-world/"/>
-      <url>/fwtBlog/2019/06/20/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[第3期:(3)hexo部署多设备同步管理]]></title>
+    <url>%2FfwtBlog%2F2019%2F07%2F02%2F%E7%AC%AC3%E6%9C%9F-3-hexo%E9%83%A8%E7%BD%B2%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86%2F</url>
+    <content type="text"><![CDATA[hexo部署多设备同步管理对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>7月</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[第2期:(2)hexo标签插件的基础操作]]></title>
+    <url>%2FfwtBlog%2F2019%2F07%2F01%2F%E7%AC%AC2%E6%9C%9F-2-hexo%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[hexo标签插件的基础操作一、引用块1、普通输出小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人 2、引用书上的句子小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人 fwtFeng Feng 3、引用 TwitterNEW: DevDocs now comes with syntax highlighting. http://devdocs.io @DevDocstwitter.com/devdocs/status/356095192085962752 4、引用网络上的文章小时候枕头上都是口水，长大以后枕头上都是泪水，小时候微笑是一种心情，长大后微笑是一种表情，小时候哭着哭着就笑了，长大后笑着笑着就哭了我们终于到了小时候最羡慕的年纪，但却没能成为小时候最想成为的人 Seth GodinWelcome to Island Marketing 二、代码块1、普通代码块1alert(&apos;Hello javascript!&apos;); 2、指定语言1[rectangle setX: 10 y: 10 width: 20 height: 20]; 3、附加内容Array.map1array.map(callback[, thisArg]) 4、附加网址_.compactUnderscore.js12_.compact([0, 1, false, 2, &apos;&apos;, 3]);=&gt; [1, 2, 3] 三、反引号代码块由于此处加载大量网址 暂且不做示例1、Pull Quote123&#123;% pullquote [class] %&#125;content&#123;% endpullquote %&#125; 2、jsFiddle1&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125; 3、Gist1&#123;% gist gist_id [filename] %&#125; 4、iframe1&#123;% iframe url [width] [height] %&#125; 5、Image1&#123;% img [class names] /path/to/image [width] [height] [title text [alt text]] %&#125; 6、Link1&#123;% link text url [external] [title] %&#125; 7、Include Code1&#123;% include_code [title] [lang:language] path/to/file %&#125; 8、Youtube1&#123;% youtube video_id %&#125; 9、Vimeo1&#123;% vimeo video_id %&#125; 四、引用文章12&#123;% post_path slug %&#125;&#123;% post_link slug [title] %&#125; 五、引用资源123&#123;% asset_path slug %&#125;&#123;% asset_img slug [title] %&#125;&#123;% asset_link slug [title] %&#125; 六、Raw123&#123;% raw %&#125;content&#123;% endraw %&#125;]]></content>
+      <tags>
+        <tag>md语法</tag>
+        <tag>7月</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[第一期:(1)hexo常用命令及markdown基础语法]]></title>
+    <url>%2FfwtBlog%2F2019%2F06%2F24%2Fmarkdown%EF%BC%88md%EF%BC%89%E6%96%87%E4%BB%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B8%B8%E7%94%A8%E7%BC%96%E8%BE%91%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[hexo常用命令1、分段:两个回车:1234 一个人会落泪，是因为痛；一个人之所以痛，是因为在乎；一个人之所以在乎，是因为有感觉； 一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整的一个人。难过的时候，原谅自己，你只不过是一个人而已，没必要把自己看的这么坚不可摧。 2、换行 两个空格 + 回车 :12 一个人之所以有感觉，仅因为你是一个人！所以，你有感觉，在乎，痛过，落泪了，说明你是完整的一个人。 难过的时候，原谅自己，你只不过是一个人而已，没必要把自己看的这么坚不可摧。 3、标题 # ~ ###### 井号的个数表示几级标题，即Markdown可以表示一级标题到六级标题:H2: 一个人之所以有感觉，仅因为你是一个人！H3: 一个人之所以有感觉，仅因为你是一个人！H4: 一个人之所以有感觉，仅因为你是一个人！H5: 一个人之所以有感觉，仅因为你是一个人！H6: 一个人之所以有感觉，仅因为你是一个人！4、引用 &gt;: 一个人之所以有感觉，仅因为你是一个人！ 5、列表 * ， + ， - ， 1. ，选其中之一，注意后面有个空格: The reason why a person feels is because you are a person! The reason why a person feels is because you are a person! The reason why a person feels is because you are a person! The reason why a person feels is because you are a person! The reason why a person feels is because you are a person! The reason why a person feels is because you are a person! 6、代码区块 四个空格 开头:1The reason why a person feels is because you are a person! 7、链接:[文字](链接地址) 8、图片:![](图片地址) //图片地址可以是本地路劲，也可以是网络地址 9、强调:字体删除字体删除字体删除字体删除字体删除 10、代码:1The reason why a person feels is because you are a person! 11、字体及颜色用法: 我是黑体字我是黑体字我是微软雅黑我是华文彩云黑体nullgray 12、代码段:The reason why a person feels is because you are a person! 13、JavaScript 示例:123456789/*** nth element in the fibonacci series.*/function fib(n) &#123; var a = 1, b = 1; return a;&#125;document.write(fib(10)); 14、表格 项目 价格 数量 计算机 $1600 5 手机 $12 12 管线 $1 234]]></content>
+      <tags>
+        <tag>md语法</tag>
+        <tag>6月</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[first-myblog]]></title>
+    <url>%2FfwtBlog%2F2019%2F06%2F24%2Ffirst-myblog%2F</url>
+    <content type="text"><![CDATA[前言 使用github pages服务搭建博客的好处有： 全是静态文件，访问速度快； 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的； 数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行； 博客内容可以轻松打包、转移、发布到其它平台； 等等；]]></content>
+      <tags>
+        <tag>标签1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2FfwtBlog%2F2019%2F06%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
 </search>

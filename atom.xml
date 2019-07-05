@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>snail Blog</title>
   
-  <subtitle>create 2019/6/20</subtitle>
+  <subtitle>常想一二 不思八九</subtitle>
   <link href="/fwtBlog/atom.xml" rel="self"/>
   
   <link href="https://137942170.github.io/fwtBlog/"/>
@@ -96,7 +96,7 @@
     <link href="https://137942170.github.io/fwtBlog/2019/06/24/first-myblog/"/>
     <id>https://137942170.github.io/fwtBlog/2019/06/24/first-myblog/</id>
     <published>2019-06-24T03:18:40.000Z</published>
-    <updated>2019-07-05T02:36:54.662Z</updated>
+    <updated>2019-07-05T05:50:32.376Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><img src="1.jpg" alt="1"></p><p>使用github pages服务搭建博客的好处有：</p><ol><li>全是静态文件，访问速度快；</li><li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li><li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li></ol><a id="more"></a><ol start="4"><li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li><li>博客内容可以轻松打包、转移、发布到其它平台；</li><li>等等；</li></ol>]]></content>
     
@@ -109,30 +109,6 @@
 &lt;li&gt;免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；&lt;/li&gt;
 &lt;li&gt;可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；&lt;/li&gt;
 &lt;/ol&gt;
-    
-    </summary>
-    
-    
-      <category term="标签1" scheme="https://137942170.github.io/fwtBlog/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://137942170.github.io/fwtBlog/2019/06/21/test/"/>
-    <id>https://137942170.github.io/fwtBlog/2019/06/21/test/</id>
-    <published>2019-06-21T06:02:50.000Z</published>
-    <updated>2019-06-21T06:15:05.770Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><blockquote><p>content</p><footer><strong>[author[</strong><cite>source]] [link] [source_link_title]</cite></footer></blockquote><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p></blockquote><h3 id="引用书上的句子"><a href="#引用书上的句子" class="headerlink" title="引用书上的句子"></a>引用书上的句子</h3><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p><footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote><h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><h4 id="在文章中嵌入-jsFiddle"><a href="#在文章中嵌入-jsFiddle" class="headerlink" title="在文章中嵌入 jsFiddle"></a>在文章中嵌入 jsFiddle</h4><iframe scrolling="no" width="[width]" height="[height]" src="//jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" allowfullscreen></iframe><h4 id="在文章中插入指定大小的图片。"><a href="#在文章中插入指定大小的图片。" class="headerlink" title="在文章中插入指定大小的图片。"></a>在文章中插入指定大小的图片。</h4><img src="/fwtBlog/path/to/image" class="[class names]" title="[width] [height] [title text [alt text]]">]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;引用块&quot;&gt;&lt;a href=&quot;#引用块&quot; class=&quot;headerlink&quot; title=&quot;引用块&quot;&gt;&lt;/a&gt;引用块&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;content&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;[author[&lt;/strong&gt;&lt;cite&gt;sou
-      
     
     </summary>
     
