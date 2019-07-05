@@ -1,6 +1,7 @@
 ---
 title: 第一期:(1)hexo常用命令及markdown基础语法
 date: 2019-06-24 11:23:43
+cover: /img/1.jpg
 tags:
     -md语法
     -6月
