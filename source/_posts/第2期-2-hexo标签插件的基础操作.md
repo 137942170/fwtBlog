@@ -1,10 +1,15 @@
 ---
 title: 第2期:(2)hexo标签插件的基础操作
 date: 2019-07-01 12:18:52
+<<<<<<< HEAD
 cover: /img/2.jpg
+=======
+categories: 
+    - Hexo
+>>>>>>> 621d0618623c158a0985d8d2b17236b65fad70db
 tags:
-    -md语法
-    -7月
+    - md语法
+    - 7月
 ---
 
 ### hexo标签插件的基础操作

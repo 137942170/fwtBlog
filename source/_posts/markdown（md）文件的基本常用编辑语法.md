@@ -1,10 +1,15 @@
 ---
 title: 第一期:(1)hexo常用命令及markdown基础语法
 date: 2019-06-24 11:23:43
+<<<<<<< HEAD
 cover: /img/1.jpg
+=======
+categories: 
+    - Hexo
+>>>>>>> 621d0618623c158a0985d8d2b17236b65fad70db
 tags:
-    -md语法
-    -6月
+    - md语法
+    - 6月
 ---
 ### hexo常用命令
 
