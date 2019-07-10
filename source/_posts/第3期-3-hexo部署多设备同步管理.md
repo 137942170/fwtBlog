@@ -1,10 +1,11 @@
 ---
 title: '第3期:(3)hexo部署多设备同步管理'
 date: 2019-07-02 18:15:54
-cover: /img/3.jpg
+categories: 
+    - Hexo
 tags:
-    -hexo
-    -7月
+    - hexo
+    - 7月
 ---
 
 ### hexo部署多设备同步管理

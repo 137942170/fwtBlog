@@ -4,7 +4,7 @@
 
 # Site
 title: snail Blog
-subtitle: create 2019/6/20
+subtitle: 常想一二 不思八九
 description: v-log
 keywords: study
 author: fwt
@@ -79,7 +79,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: diaspora
+theme: next
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
