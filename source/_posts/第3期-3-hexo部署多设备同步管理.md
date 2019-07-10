@@ -1,8 +1,12 @@
 ---
 title: '第3期:(3)hexo部署多设备同步管理'
 date: 2019-07-02 18:15:54
+<<<<<<< HEAD
+cover: /img/3.jpg
+=======
 categories: 
     - Hexo
+>>>>>>> 621d0618623c158a0985d8d2b17236b65fad70db
 tags:
     - hexo
     - 7月

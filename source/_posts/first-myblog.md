@@ -2,6 +2,7 @@
 title: first-myblog
 date: 2019-06-24 11:18:40
 tags: "标签1"
+cover: /img/1.jpg
 ---
 
 # 前言
