@@ -6,7 +6,7 @@
   <link href="/fwtBlog/atom.xml" rel="self"/>
   
   <link href="https://137942170.github.io/fwtBlog/"/>
-  <updated>2019-07-10T03:15:21.577Z</updated>
+  <updated>2019-07-10T04:29:18.122Z</updated>
   <id>https://137942170.github.io/fwtBlog/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://137942170.github.io/fwtBlog/2019/07/02/%E7%AC%AC3%E6%9C%9F-3-hexo%E9%83%A8%E7%BD%B2%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
     <id>https://137942170.github.io/fwtBlog/2019/07/02/第3期-3-hexo部署多设备同步管理/</id>
     <published>2019-07-02T10:15:54.000Z</published>
-    <updated>2019-07-10T03:15:21.577Z</updated>
+    <updated>2019-07-10T04:29:18.122Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="hexo部署多设备同步管理"><a href="#hexo部署多设备同步管理" class="headerlink" title="hexo部署多设备同步管理"></a>hexo部署多设备同步管理</h3><h4 id="对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑"><a href="#对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑" class="headerlink" title="对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑"></a>对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑</h4>]]></content>
+    <content type="html"><![CDATA[<h3 id="一、hexo部署多设备同步管理"><a href="#一、hexo部署多设备同步管理" class="headerlink" title="一、hexo部署多设备同步管理"></a>一、hexo部署多设备同步管理</h3><p>对于很多已经把项目部署到github来说已经可以发表文章了，但是想要执行多台电脑同时写文章并且操作还是有很多坑，看了网上很多文章总结下来的，一些坑</p><h4 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h4><ul><li>安装 hexo</li><li>安装 Node</li><li>安装 git</li></ul><p>这个不废话直接跳过</p><h4 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h4><p>这个其实就是咱们正常使用github创建项目的流程了，首先咱们要确定的是就是要有两个分支，<strong>master</strong> 和 <strong>hexo</strong>,</p><ul><li><p><font color="#d93a49" face="hexo"> <strong>hexo</strong> </font>生成的静态博客文件都是上传到GitHub上的, 且默认放在<font color="#d93a49" face="master"> <strong>master</strong> </font>分支上, 而一些相关的配置文件都在本地,所以首先我们要创建<strong>hexo</strong>分支并且设置<strong>hexo</strong>为默认分支(更换电脑是直接 <font color="#d93a49" face="master"> <strong>git clone hexo</strong> </font>)</p></li><li><p>切换到该<strong>hexo分支</strong>，并在该仓库-&gt;Settings-&gt;Branches-&gt;Default branch中将默认分支设为hexo，save保存</p></li></ul><h3 id="二、上传hexo源文件到服务器"><a href="#二、上传hexo源文件到服务器" class="headerlink" title="二、上传hexo源文件到服务器"></a>二、上传hexo源文件到服务器</h3><h4 id="克隆hexo分支"><a href="#克隆hexo分支" class="headerlink" title="克隆hexo分支"></a>克隆hexo分支</h4><ul><li>在<strong>hexo</strong>分支创建完成以后，克隆<strong>hexo</strong>到本地，然后在命令行中执行,查看新建的分支为hexo</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">*hexo</span><br></pre></td></tr></table></figure><h4 id="上传部署文件"><a href="#上传部署文件" class="headerlink" title="上传部署文件"></a>上传部署文件</h4><ul><li>将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进刚clone的文件目录中去，需要将插件重新安装一遍</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br><span class="line">npm install hexo-renderer-marked@0.2 --save</span><br><span class="line">npm install hexo-renderer-stylus@0.2 --save</span><br><span class="line">npm install hexo-generator-feed@1 --save</span><br><span class="line">npm install hexo-generator-sitemap@1 --save</span><br><span class="line">npm install hexo-generator-search --save</span><br><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;hexo部署多设备同步管理&quot;&gt;&lt;a href=&quot;#hexo部署多设备同步管理&quot; class=&quot;headerlink&quot; title=&quot;hexo部署多设备同步管理&quot;&gt;&lt;/a&gt;hexo部署多设备同步管理&lt;/h3&gt;&lt;h4 id=&quot;对于很多已经把项目部署到github来说已
+        &lt;h3 id=&quot;一、hexo部署多设备同步管理&quot;&gt;&lt;a href=&quot;#一、hexo部署多设备同步管理&quot; class=&quot;headerlink&quot; title=&quot;一、hexo部署多设备同步管理&quot;&gt;&lt;/a&gt;一、hexo部署多设备同步管理&lt;/h3&gt;&lt;p&gt;对于很多已经把项目部署到github
       
     
     </summary>
