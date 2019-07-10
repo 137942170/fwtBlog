@@ -1824,7 +1824,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2fb0b5;
+  background: #e0f2a3;
 }
 .feed-link,
 .chat {
@@ -2998,14 +2998,13 @@ ul.breadcrumb li+li:last-child {
     margin: 8px 0 0;
   }
 }
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("/images/bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-  }
-  #footer a {
-    color: #eee;
-  }
+body {
+  background-image: url("http://ptmxrb8rp.bkt.clouddn.com/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+#footer a {
+  color: #eee;
 }
