@@ -67,7 +67,7 @@ _.compact([0, 1, false, 2, '', 3]);
 
 ##### 由于此处加载大量网址 暂且不做示例
 
-#### 1、Pull Quote
+#### 1、Pull Quote 引用
 ```
 {% pullquote [class] %}
 content
