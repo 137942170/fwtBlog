@@ -6,7 +6,7 @@
   <link href="/fwtBlog/atom.xml" rel="self"/>
   
   <link href="https://137942170.github.io/fwtBlog/"/>
-  <updated>2019-07-12T02:52:39.660Z</updated>
+  <updated>2019-07-18T09:59:27.357Z</updated>
   <id>https://137942170.github.io/fwtBlog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XSS 与 CSRF 两种跨站攻击</title>
+    <link href="https://137942170.github.io/fwtBlog/2019/07/18/XSS-%E4%B8%8E-CSRF-%E4%B8%A4%E7%A7%8D%E8%B7%A8%E7%AB%99%E6%94%BB%E5%87%BB/"/>
+    <id>https://137942170.github.io/fwtBlog/2019/07/18/XSS-与-CSRF-两种跨站攻击/</id>
+    <published>2019-07-18T09:32:14.000Z</published>
+    <updated>2019-07-18T09:59:27.357Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="pullquote [class]"><p><a href="https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/" target="_blank" rel="noopener">https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote class=&quot;pullquote [class]&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="浏览器" scheme="https://137942170.github.io/fwtBlog/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>第5期:(5)JavaScript基础语法</title>
@@ -129,9 +152,9 @@
       <category term="Hexo" scheme="https://137942170.github.io/fwtBlog/categories/Hexo/"/>
     
     
-      <category term="6月" scheme="https://137942170.github.io/fwtBlog/tags/6%E6%9C%88/"/>
-    
       <category term="md语法" scheme="https://137942170.github.io/fwtBlog/tags/md%E8%AF%AD%E6%B3%95/"/>
+    
+      <category term="6月" scheme="https://137942170.github.io/fwtBlog/tags/6%E6%9C%88/"/>
     
   </entry>
   
