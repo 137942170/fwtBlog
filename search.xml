@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[【ES6】var、let、const的区别]]></title>
+    <url>%2FfwtBlog%2F2019%2F08%2F20%2F%E3%80%90ES6%E3%80%91var%E3%80%81let%E3%80%81const%E7%9A%84%E5%8C%BA%E5%88%AB%2F</url>
+    <content type="text"><![CDATA[一、块级作用域ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。 1234567891011121314151617181920212223242526272829&lt;script type=&quot;text/javascript&quot;&gt; &#123; var a = 1; console.log(a); // 1 &#125; console.log(a); // 1 // 通过var定义的变量可以跨块作用域访问到。 (function A() &#123; var b = 2; console.log(b); // 2 &#125;)(); // console.log(b); // 报错， // 可见，通过var定义的变量不能跨函数作用域访问到 if(true) &#123; var c = 3; &#125; console.log(c); // 3 for(var i = 0; i &lt; 4; i ++) &#123; var d = 5; &#125;; console.log(i); // 4 (循环结束i已经是4，所以此处i为4) console.log(d); // 5 // if语句和for语句中用var定义的变量可以在外面访问到， // 可见，if语句和for语句属于块作用域，不属于函数作用域。&lt;/script&gt; 二、var、let、const的区别1、var定义的变量，没有块的概念，可以跨块访问, 不能跨函数访问。 2、let定义的变量，只能在块作用域里访问，不能跨块访问，也不能跨函数访问。 3、const用来定义常量，使用时必须初始化(即必须赋值)，只能在块作用域里访问，而且不能修改。1234567891011121314151617181920212223242526272829303132333435&lt;script type=&quot;text/javascript&quot;&gt; // 块作用域 &#123; var a = 1; let b = 2; const c = 3; // c = 4; // 报错 var aa; let bb; // const cc; // 报错 console.log(a); // 1 console.log(b); // 2 console.log(c); // 3 console.log(aa); // undefined console.log(bb); // undefined &#125; console.log(a); // 1 // console.log(b); // 报错 // console.log(c); // 报错 // 函数作用域 (function A() &#123; var d = 5; let e = 6; const f = 7; console.log(d); // 5 console.log(e); // 6 console.log(f); // 7 &#125;)(); // console.log(d); // 报错 // console.log(e); // 报错 // console.log(f); // 报错&lt;/script&gt; 三、const定义的对象属性是否可以改变上面说到 const 是不能修改的，于是很痛快的说不能，但是回来实际测试后发现错了，在此记录一下 12345678const person = &#123; name : &apos;jiuke&apos;, sex : &apos;男&apos;&#125;person.name = &apos;test&apos;console.log(person.name) 运行上述代码，发现person对象的name属性确实被修改了，这是怎么回事呢？ 因为对象是引用类型的，person中保存的仅是对象的指针，这就意味着，const仅保证指针不发生改变，修改对象的属性不会改变对象的指针，所以是被允许的。也就是说const定义的引用类型只要指针不发生改变，其他的不论如何改变都是允许的。 然后我们试着修改一下指针，让person指向一个新对象，果然报错 123456789const person = &#123;name : &apos;jiuke&apos;,sex : &apos;男&apos;&#125;person = &#123;name : &apos;test&apos;,sex : &apos;男&apos;&#125;]]></content>
+      <categories>
+        <category>Es6</category>
+      </categories>
+      <tags>
+        <tag>8月</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[整理的前端基础知识]]></title>
     <url>%2FfwtBlog%2F2019%2F07%2F31%2F%E6%95%B4%E7%90%86%E7%9A%84%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%2F</url>
     <content type="text"><![CDATA[前端基础知识什么是一个Web服务器？]]></content>
@@ -60,8 +71,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>6月</tag>
         <tag>md语法</tag>
+        <tag>6月</tag>
       </tags>
   </entry>
   <entry>

@@ -94,18 +94,18 @@
 
 
 
-  <meta name="description" content="Photos     图片正在加载中…      (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($sc">
-<meta name="keywords" content="study">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Pic">
-<meta property="og:url" content="https://137942170.github.io/fwtBlog/Pic/index.html">
+  <meta name="description" content="一、块级作用域ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。 1234567891011121314151617181920212223242526272829&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;        &amp;#12">
+<meta name="keywords" content="8月">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【ES6】var、let、const的区别">
+<meta property="og:url" content="https://137942170.github.io/fwtBlog/2019/08/20/【ES6】var、let、const的区别/index.html">
 <meta property="og:site_name" content="snail Blog">
-<meta property="og:description" content="Photos     图片正在加载中…      (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($sc">
+<meta property="og:description" content="一、块级作用域ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。 1234567891011121314151617181920212223242526272829&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;        &amp;#12">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-01T03:24:23.305Z">
+<meta property="og:updated_time" content="2019-08-20T09:34:14.867Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Pic">
-<meta name="twitter:description" content="Photos     图片正在加载中…      (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($sc">
+<meta name="twitter:title" content="【ES6】var、let、const的区别">
+<meta name="twitter:description" content="一、块级作用域ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。 1234567891011121314151617181920212223242526272829&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;        &amp;#12">
 
 
 
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="https://137942170.github.io/fwtBlog/Pic/">
+  <link rel="canonical" href="https://137942170.github.io/fwtBlog/2019/08/20/【ES6】var、let、const的区别/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>Pic | snail Blog</title>
+  <title>【ES6】var、let、const的区别 | snail Blog</title>
   
 
 
@@ -271,7 +271,7 @@
         
         
           
-          <li class="menu-item menu-item-pic menu-item-active">
+          <li class="menu-item menu-item-pic">
 
     
     
@@ -366,100 +366,202 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://137942170.github.io/fwtBlog/fwtBlog/2019/08/20/【ES6】var、let、const的区别/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="fwt">
+      <meta itemprop="description" content="v-log">
+      <meta itemprop="image" content="/fwtBlog/images/1.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="snail Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Pic
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <link rel="stylesheet" href="../lib/ins.css">
-<link rel="stylesheet" href="../lib/photoswipe/photoswipe.css"> 
-<link rel="stylesheet" href="../lib/photoswipe/default-skin/default-skin.css"> 
-<div class="photos-btn-wrap">
-  <a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="external">Photos</a>
-</div>
-<div class="instagram itemscope">
-  <a href="https://github.com/137942170" target="_blank" class="open-ins">图片正在加载中…</a>
-</div>
+          <h1 class="post-title" itemprop="name headline">【ES6】var、let、const的区别
 
-<script>
-  (function() {
-    var loadScript = function(path) {
-      var $script = document.createElement('script')
-      document.getElementsByTagName('body')[0].appendChild($script)
-      $script.setAttribute('src', path)
-    }
-    setTimeout(function() {
-        loadScript('../lib/ins.js')
-    }, 0)
-  })()
-</script>
+              
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-20 17:20:12 / 修改时间：17:34:14" itemprop="dateCreated datePublished" datetime="2019-08-20T17:20:12+08:00">2019-08-20</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/fwtBlog/categories/Es6/" itemprop="url" rel="index"><span itemprop="name">Es6</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h3 id="一、块级作用域"><a href="#一、块级作用域" class="headerlink" title="一、块级作用域"></a>一、块级作用域</h3><p>ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。<br>ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">    </span><br><span class="line">    &#123;</span><br><span class="line">        var a = 1;</span><br><span class="line">        console.log(a); // 1</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(a); // 1</span><br><span class="line">    // 通过var定义的变量可以跨块作用域访问到。</span><br><span class="line"></span><br><span class="line">    (function A() &#123;</span><br><span class="line">        var b = 2;</span><br><span class="line">        console.log(b); // 2</span><br><span class="line">    &#125;)();</span><br><span class="line">    // console.log(b); // 报错，</span><br><span class="line">    // 可见，通过var定义的变量不能跨函数作用域访问到</span><br><span class="line"></span><br><span class="line">    if(true) &#123;</span><br><span class="line">        var c = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(c); // 3</span><br><span class="line">    for(var i = 0; i &lt; 4; i ++) &#123;</span><br><span class="line">        var d = 5;</span><br><span class="line">    &#125;;</span><br><span class="line">    console.log(i); // 4   (循环结束i已经是4，所以此处i为4)</span><br><span class="line">    console.log(d); // 5</span><br><span class="line">    // if语句和for语句中用var定义的变量可以在外面访问到，</span><br><span class="line">    // 可见，if语句和for语句属于块作用域，不属于函数作用域。</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="二、var、let、const的区别"><a href="#二、var、let、const的区别" class="headerlink" title="二、var、let、const的区别"></a>二、var、let、const的区别</h3><pre><code>1、var定义的变量，没有块的概念，可以跨块访问, 不能跨函数访问。
+2、let定义的变量，只能在块作用域里访问，不能跨块访问，也不能跨函数访问。
+3、const用来定义常量，使用时必须初始化(即必须赋值)，只能在块作用域里访问，而且不能修改。</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">    // 块作用域</span><br><span class="line">    &#123;</span><br><span class="line">        var a = 1;</span><br><span class="line">        let b = 2;</span><br><span class="line">        const c = 3;</span><br><span class="line">        // c = 4; // 报错</span><br><span class="line">        var aa;</span><br><span class="line">        let bb;</span><br><span class="line">        // const cc; // 报错</span><br><span class="line">        console.log(a); // 1</span><br><span class="line">        console.log(b); // 2</span><br><span class="line">        console.log(c); // 3</span><br><span class="line">        console.log(aa); // undefined</span><br><span class="line">        console.log(bb); // undefined</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(a); // 1</span><br><span class="line">    // console.log(b); // 报错</span><br><span class="line">    // console.log(c); // 报错</span><br><span class="line"></span><br><span class="line">    // 函数作用域</span><br><span class="line">    (function A() &#123;</span><br><span class="line">        var d = 5;</span><br><span class="line">        let e = 6;</span><br><span class="line">        const f = 7;</span><br><span class="line">        console.log(d); // 5</span><br><span class="line">        console.log(e); // 6  </span><br><span class="line">        console.log(f); // 7 </span><br><span class="line"></span><br><span class="line">    &#125;)();</span><br><span class="line">    // console.log(d); // 报错</span><br><span class="line">    // console.log(e); // 报错</span><br><span class="line">    // console.log(f); // 报错</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="三、const定义的对象属性是否可以改变"><a href="#三、const定义的对象属性是否可以改变" class="headerlink" title="三、const定义的对象属性是否可以改变"></a>三、const定义的对象属性是否可以改变</h3><p>上面说到 const 是不能修改的，于是很痛快的说不能，但是回来实际测试后发现错了，在此记录一下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">const person = &#123;</span><br><span class="line">    name : &apos;jiuke&apos;,</span><br><span class="line">    sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">person.name = &apos;test&apos;</span><br><span class="line"></span><br><span class="line">console.log(person.name)</span><br></pre></td></tr></table></figure>
+
+<p>运行上述代码，发现person对象的name属性确实被修改了，这是怎么回事呢？</p>
+<p>因为对象是引用类型的，person中保存的仅是对象的指针，这就意味着，const仅保证指针不发生改变，修改对象的属性不会改变对象的指针，所以是被允许的。也就是说const定义的引用类型只要指针不发生改变，其他的不论如何改变都是允许的。</p>
+<p>然后我们试着修改一下指针，让person指向一个新对象，果然报错</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">const person = &#123;</span><br><span class="line">name : &apos;jiuke&apos;,</span><br><span class="line">sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">person = &#123;</span><br><span class="line">name : &apos;test&apos;,</span><br><span class="line">sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/fwtBlog/tags/8月/" rel="tag"># 8月</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/fwtBlog/2019/07/31/整理的前端基础知识/" rel="next" title="整理的前端基础知识">
+                <i class="fa fa-chevron-left"></i> 整理的前端基础知识
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -488,8 +590,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -592,6 +703,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、块级作用域"><span class="nav-number">1.</span> <span class="nav-text">一、块级作用域</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、var、let、const的区别"><span class="nav-number">2.</span> <span class="nav-text">二、var、let、const的区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、const定义的对象属性是否可以改变"><span class="nav-number">3.</span> <span class="nav-text">三、const定义的对象属性是否可以改变</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

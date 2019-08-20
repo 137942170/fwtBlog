@@ -6,7 +6,7 @@
   <link href="/fwtBlog/atom.xml" rel="self"/>
   
   <link href="https://137942170.github.io/fwtBlog/"/>
-  <updated>2019-07-31T09:00:52.663Z</updated>
+  <updated>2019-08-20T09:34:14.867Z</updated>
   <id>https://137942170.github.io/fwtBlog/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【ES6】var、let、const的区别</title>
+    <link href="https://137942170.github.io/fwtBlog/2019/08/20/%E3%80%90ES6%E3%80%91var%E3%80%81let%E3%80%81const%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>https://137942170.github.io/fwtBlog/2019/08/20/【ES6】var、let、const的区别/</id>
+    <published>2019-08-20T09:20:12.000Z</published>
+    <updated>2019-08-20T09:34:14.867Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、块级作用域"><a href="#一、块级作用域" class="headerlink" title="一、块级作用域"></a>一、块级作用域</h3><p>ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。<br>ES6 中新增了块级作用域。块作用域由 { } 包括，if语句和 for语句里面的{ }也属于块作用域。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">    </span><br><span class="line">    &#123;</span><br><span class="line">        var a = 1;</span><br><span class="line">        console.log(a); // 1</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(a); // 1</span><br><span class="line">    // 通过var定义的变量可以跨块作用域访问到。</span><br><span class="line"></span><br><span class="line">    (function A() &#123;</span><br><span class="line">        var b = 2;</span><br><span class="line">        console.log(b); // 2</span><br><span class="line">    &#125;)();</span><br><span class="line">    // console.log(b); // 报错，</span><br><span class="line">    // 可见，通过var定义的变量不能跨函数作用域访问到</span><br><span class="line"></span><br><span class="line">    if(true) &#123;</span><br><span class="line">        var c = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(c); // 3</span><br><span class="line">    for(var i = 0; i &lt; 4; i ++) &#123;</span><br><span class="line">        var d = 5;</span><br><span class="line">    &#125;;</span><br><span class="line">    console.log(i); // 4   (循环结束i已经是4，所以此处i为4)</span><br><span class="line">    console.log(d); // 5</span><br><span class="line">    // if语句和for语句中用var定义的变量可以在外面访问到，</span><br><span class="line">    // 可见，if语句和for语句属于块作用域，不属于函数作用域。</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><h3 id="二、var、let、const的区别"><a href="#二、var、let、const的区别" class="headerlink" title="二、var、let、const的区别"></a>二、var、let、const的区别</h3><pre><code>1、var定义的变量，没有块的概念，可以跨块访问, 不能跨函数访问。2、let定义的变量，只能在块作用域里访问，不能跨块访问，也不能跨函数访问。3、const用来定义常量，使用时必须初始化(即必须赋值)，只能在块作用域里访问，而且不能修改。</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">    // 块作用域</span><br><span class="line">    &#123;</span><br><span class="line">        var a = 1;</span><br><span class="line">        let b = 2;</span><br><span class="line">        const c = 3;</span><br><span class="line">        // c = 4; // 报错</span><br><span class="line">        var aa;</span><br><span class="line">        let bb;</span><br><span class="line">        // const cc; // 报错</span><br><span class="line">        console.log(a); // 1</span><br><span class="line">        console.log(b); // 2</span><br><span class="line">        console.log(c); // 3</span><br><span class="line">        console.log(aa); // undefined</span><br><span class="line">        console.log(bb); // undefined</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(a); // 1</span><br><span class="line">    // console.log(b); // 报错</span><br><span class="line">    // console.log(c); // 报错</span><br><span class="line"></span><br><span class="line">    // 函数作用域</span><br><span class="line">    (function A() &#123;</span><br><span class="line">        var d = 5;</span><br><span class="line">        let e = 6;</span><br><span class="line">        const f = 7;</span><br><span class="line">        console.log(d); // 5</span><br><span class="line">        console.log(e); // 6  </span><br><span class="line">        console.log(f); // 7 </span><br><span class="line"></span><br><span class="line">    &#125;)();</span><br><span class="line">    // console.log(d); // 报错</span><br><span class="line">    // console.log(e); // 报错</span><br><span class="line">    // console.log(f); // 报错</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><h3 id="三、const定义的对象属性是否可以改变"><a href="#三、const定义的对象属性是否可以改变" class="headerlink" title="三、const定义的对象属性是否可以改变"></a>三、const定义的对象属性是否可以改变</h3><p>上面说到 const 是不能修改的，于是很痛快的说不能，但是回来实际测试后发现错了，在此记录一下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">const person = &#123;</span><br><span class="line">    name : &apos;jiuke&apos;,</span><br><span class="line">    sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">person.name = &apos;test&apos;</span><br><span class="line"></span><br><span class="line">console.log(person.name)</span><br></pre></td></tr></table></figure><p>运行上述代码，发现person对象的name属性确实被修改了，这是怎么回事呢？</p><p>因为对象是引用类型的，person中保存的仅是对象的指针，这就意味着，const仅保证指针不发生改变，修改对象的属性不会改变对象的指针，所以是被允许的。也就是说const定义的引用类型只要指针不发生改变，其他的不论如何改变都是允许的。</p><p>然后我们试着修改一下指针，让person指向一个新对象，果然报错</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">const person = &#123;</span><br><span class="line">name : &apos;jiuke&apos;,</span><br><span class="line">sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">person = &#123;</span><br><span class="line">name : &apos;test&apos;,</span><br><span class="line">sex : &apos;男&apos;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;一、块级作用域&quot;&gt;&lt;a href=&quot;#一、块级作用域&quot; class=&quot;headerlink&quot; title=&quot;一、块级作用域&quot;&gt;&lt;/a&gt;一、块级作用域&lt;/h3&gt;&lt;p&gt;ES5 中作用域有：全局作用域、函数作用域。没有块作用域的概念。&lt;br&gt;ES6 中新增了块级作用域。
+      
+    
+    </summary>
+    
+      <category term="Es6" scheme="https://137942170.github.io/fwtBlog/categories/Es6/"/>
+    
+    
+      <category term="8月" scheme="https://137942170.github.io/fwtBlog/tags/8%E6%9C%88/"/>
+    
+  </entry>
   
   <entry>
     <title>整理的前端基础知识</title>
@@ -173,9 +198,9 @@
       <category term="Hexo" scheme="https://137942170.github.io/fwtBlog/categories/Hexo/"/>
     
     
-      <category term="6月" scheme="https://137942170.github.io/fwtBlog/tags/6%E6%9C%88/"/>
-    
       <category term="md语法" scheme="https://137942170.github.io/fwtBlog/tags/md%E8%AF%AD%E6%B3%95/"/>
+    
+      <category term="6月" scheme="https://137942170.github.io/fwtBlog/tags/6%E6%9C%88/"/>
     
   </entry>
   
