@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[第6期-6-flex布局]]></title>
     <url>%2FfwtBlog%2F2020%2F01%2F16%2F%E7%AC%AC6%E6%9C%9F-6-flex%E5%B8%83%E5%B1%80%2F</url>
-    <content type="text"><![CDATA[flex语法一、Flex 布局是什么？弹性布局：任何一个容器都可以指定为 Flex 布局 123box &#123; display:flex; &#125; 行内元素也可以使用 Flex 布局。 123box &#123; display: inline-flex;&#125; Webkit 内核的浏览器，必须加上-webkit前缀。 1234.box&#123;display: -webkit-flex; /* Safari */display: flex;&#125; 二、基本概念容器两根轴 主轴（水平）：开始（main start）、结束（main end）和 交叉轴（垂直）:cross start）、结束（cross end）; 单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。 三、容器的属性123456+ flex-direction+ flex-wrap+ flex-flow+ justify-content+ align-items+ align-content 3.1 flex-direction属性flex-direction属性决定主轴的方向 123box &#123; flex-direction: row | row-reverse | column | column-reverse;&#125; row（默认值）：主轴为水平方向，起点在左端。 row-reverse：主轴为水平方向，起点在右端。 column：主轴为垂直方向，起点在上沿。 column-reverse：主轴为垂直方向，起点在下沿。]]></content>
+    <content type="text"><![CDATA[flex语法一、Flex 布局是什么？弹性布局：任何一个容器都可以指定为 Flex 布局 123box &#123; display:flex; &#125; 行内元素也可以使用 Flex 布局。 123box &#123; display: inline-flex;&#125; Webkit 内核的浏览器，必须加上-webkit前缀。 1234.box&#123;display: -webkit-flex; /* Safari */display: flex;&#125; 二、基本概念 容器两根轴 主轴（水平）：开始（main start）、结束（main end）和 交叉轴（垂直）:cross start）、结束（cross end）; 单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。 三、容器的属性123456flex-directionflex-wrapflex-flowjustify-contentalign-itemsalign-content 3.1 flex-direction属性flex-direction属性决定主轴的方向 123box &#123; flex-direction: row | row-reverse | column | column-reverse;&#125; row（默认值）：主轴为水平方向，起点在左端。 row-reverse：主轴为水平方向，起点在右端。 column：主轴为垂直方向，起点在上沿。 column-reverse：主轴为垂直方向，起点在下沿。]]></content>
       <categories>
         <category>Html</category>
       </categories>
